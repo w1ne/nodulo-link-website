@@ -1,0 +1,10 @@
+name = "nodulo-link"
+compatibility_date = "2026-07-11"
+pages_build_output_dir = "."
+
+# D1 database for preorder emails.
+# database_id is filled in after `wrangler d1 create nodulo-emails`.
+[[d1_databases]]
+binding = "DB"
+database_name = "nodulo-emails"
+database_id = "d5e1ef36-db3b-4445-b23d-b8f7dcd9bfc9"
